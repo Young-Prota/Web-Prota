@@ -1,0 +1,28 @@
+{
+  "name": "Web-Prota",
+  "version": "1.0.0",
+  "description": "Plantilla web",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "postcss styles.css -o tailwind.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Young-Prota/Web-Prota.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Young-Prota/Web-Prota/issues"
+  },
+  "homepage": "https://github.com/Young-Prota/Web-Prota#readme"
+}
