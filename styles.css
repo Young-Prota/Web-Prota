@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 #mainfont {
   font-family: "Righteous", cursive;
+}
+#secondfont {
+  font-family: "Raleway", sans-serif;
 }
 @tailwind base;
 @tailwind components;
