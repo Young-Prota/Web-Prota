@@ -9,3 +9,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cards {
+  @apply bg-dev-gray rounded-lg overflow-hidden shadow-lg relative;
+}

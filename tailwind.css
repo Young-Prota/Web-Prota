@@ -19385,6 +19385,16 @@ video {
           animation: bounce 1s infinite;
 }
 
+.cards {
+  --tw-bg-opacity: 1;
+  background-color: rgba(37, 38, 41, var(--tw-bg-opacity));
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
