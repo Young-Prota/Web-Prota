@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="">
-    <div><!-- content wrapper -->
-        <div>
+<body>
+    <div class=" grid sm:grid-cols-3"><!-- content wrapper -->
+        <div class=" sm:col-span-1">
             <nav>
                 <div>
                     <h1 class="text-2xl uppercase font-bold p-4">
@@ -38,7 +38,7 @@
             </nav>
         </div>
 
-        <main class="px-16 py-6 bg-dev-white">
+        <main class="px-16 py-6 bg-dev-white sm:col-span-2">
             <div class="flex justify-end">
                 <a href="#">Log in</a>
                 <a href="#">Sign up</a>
@@ -50,7 +50,7 @@
             </header>
 
             <div>
-                <div class="mt-4">
+                <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <!-- Cards go here-->
                     <div class=" bg-dev-gray rounded-lg overflow-hidden shadow-lg relative">
                         <img src="src\assets\card.png" alt="" class=" w-full h-56 object-cover">
@@ -58,12 +58,14 @@
                             <span>Branding</span>
                         </div>
                     </div>
-                    <div class="card">
+                    
+                    <div class=" bg-dev-gray rounded-lg overflow-hidden shadow-lg relative">
                         <img src="src\assets\card.png" alt="" class=" w-full h-56 object-cover">
                         <div class=" text-dev-white text-2xl font-semibold p-2 absolute top-0">
-                            <span>Branding</span>
+                            <span>UI</span>
                         </div>
                     </div>
+
                 </div>
 
             </div>
